@@ -1,0 +1,14 @@
+diff a/.github/workflows/waffleweb.yml b/.github/workflows/waffleweb.yml	(rejected hunks)
+@@ -10,8 +10,8 @@
+       - name: Checkout code
+         uses: actions/checkout@v2
+ 
+-      - name: Run waffle-web
+-        uses: github/waffle-web@v3
++      - name: Run Super-Linter
++        uses: github/super-linter@v3
+         env:
+           DEFAULT_BRANCH: main
+-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
++          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+\ No newline at end of file
